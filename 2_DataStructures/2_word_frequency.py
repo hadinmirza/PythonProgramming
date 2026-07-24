@@ -1,4 +1,5 @@
 text = "the cat sat on the mat the cat purred"
+
 word_count = {}
 
 for word in text.split():
@@ -6,5 +7,5 @@ for word in text.split():
         word_count[word] += 1
     else:
         word_count[word] = 1
-print(word_count)
 
+print(word_count)
